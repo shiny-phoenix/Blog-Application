@@ -1,0 +1,67 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore Spring Boot specific files
+.spring-boot-devtools.properties
+.spring-boot-*.jar
+
+# Ignore database files
+*.db
+
+# Ignore temporary files created by editors or OS
+*~
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and directories
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Ignore build files
+/build/
+out/
+
+
+# Ignore Docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore generated JWT keys and certificates
+*.pem
+*.key
+*.crt
+
